@@ -10,7 +10,7 @@
 - 💻 "Frontend Developer with a passion for UI/UX"
 - ⚡ "Love creating pixel-perfect designs"
 - 🤝 "Open to collaborating on open-source projects"
-- 📍 "Based in [Ampara/Sri Lanka]"
+- 📍 "Based in Ampara/Sri Lanka"
 
 ---
 
@@ -24,7 +24,7 @@
 [Add more technologies you know]
 
 **Backend & Programming**  
-[Node.js, Python, etc., using similar badges]
+Node.js, Python, etc.
 
 ---
 
