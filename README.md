@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://emojis.slackmojis.com/emojis/images/1643514558/5578/wave_hey.gif?1643514558" width="30"/> 
-  <h1>Hey! I'm [Asiri Harischandra]</h1>
+  <h1>Hey! I'm Asiri Harischandra</h1>
 </div>
 
 ---
