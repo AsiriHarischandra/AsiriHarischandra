@@ -118,11 +118,15 @@
       <animate attributeName="rx" values="60;70;60" dur="3s" repeatCount="indefinite"/>
     </ellipse>
 
-    <!-- Avatar circle -->
+    <!-- Avatar background circle -->
     <circle cx="110" cy="150" r="58" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="110" cy="150" r="55" fill="url(#avatarGrad)" opacity="0.9"/>
-    <!-- AH initials -->
-    <text x="110" y="167" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', system-ui, sans-serif" font-size="30" font-weight="600" letter-spacing="-1">AH</text>
+    <!-- Circular clip for photo -->
+    <clipPath id="avatarClip">
+      <circle cx="110" cy="150" r="55"/>
+    </clipPath>
+    <!-- Profile photo — GitHub auto-serves your avatar at this URL -->
+    <!-- Replace AsiriHarischandra with your exact GitHub username -->
+    <image href="https://avatars.githubusercontent.com/AsiriHarischandra?v=4" x="55" y="95" width="110" height="110" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
 
     <!-- Animated ring around avatar -->
     <circle cx="110" cy="150" r="63" fill="none" stroke="#58A6FF" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.5">
