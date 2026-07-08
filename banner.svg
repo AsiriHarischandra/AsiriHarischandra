@@ -53,7 +53,6 @@
     </g>
 
     <!-- Floating particle dots (right side constellation) -->
-    <!-- Static positioned dots with individual blink animations -->
     <circle cx="620" cy="50" r="2" fill="#58A6FF" opacity="0.7">
       <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.1s" repeatCount="indefinite"/>
     </circle>
@@ -124,9 +123,20 @@
     <clipPath id="avatarClip">
       <circle cx="110" cy="150" r="55"/>
     </clipPath>
-    <!-- Profile photo — GitHub auto-serves your avatar at this URL -->
-    <!-- Replace AsiriHarischandra with your exact GitHub username -->
-    <image href="https://avatars.githubusercontent.com/Asiri Harischandra?v=4" x="55" y="95" width="110" height="110" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
+
+    <!--
+      ============================ AVATAR ============================
+      IMPORTANT: GitHub renders README SVGs as a sandboxed <img>, which
+      BLOCKS external images. A remote href like the one below will NOT
+      display on your profile even though the URL is now correct.
+
+      To make the photo actually appear, replace the href value with a
+      base64 data URI, e.g.  href="data:image/png;base64,iVBORw0KG..."
+      See the note in the chat for a one-line command to generate it.
+      Corrected URL format is  https://github.com/<username>.png
+      (no spaces; use your EXACT GitHub username).
+    -->
+    <image href="https://github.com/AsiriHarischandra.png" x="55" y="95" width="110" height="110" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
 
     <!-- Animated ring around avatar -->
     <circle cx="110" cy="150" r="63" fill="none" stroke="#58A6FF" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.5">
