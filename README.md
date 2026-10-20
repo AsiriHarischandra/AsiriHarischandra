@@ -122,7 +122,7 @@ const asiri = {
      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AsiriHarischandra/AsiriHarischandra/output/github-snake-dark.svg" />
      <img alt="Contribution snake" src="https://raw.githubusercontent.com/AsiriHarischandra/AsiriHarischandra/output/github-snake.svg" />
    </picture>
-   compact&bg_color=0D1117&color=58A6FF&line=A371F7&point=E2E8F0&hide_border=true)
+   
 
 </div>
 
